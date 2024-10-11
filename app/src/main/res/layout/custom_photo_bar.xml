@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- custom_photo_bar.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="8dp">
+
+    <!-- Indicador de fotos (se irá generando dinámicamente en el código) -->
+    <View
+        android:id="@+id/photo_bar_item"
+        android:layout_width="20dp"
+        android:layout_height="4dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/photo_bar_inactive" />
+</LinearLayout>
